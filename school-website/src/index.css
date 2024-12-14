@@ -1,0 +1,18 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #1a202c;
+  color: #ffffff;
+}
